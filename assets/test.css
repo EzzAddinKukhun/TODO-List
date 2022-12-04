@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-top: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.parent {
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.todo-board {
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(234, 228, 228);
+}
+
+.count{
+    background-color: rgb(234, 228, 228);
+    
+
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-94 {
+    width: 92%;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(148, 148, 148);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.search-bar {
+    height: 56px;
+}
+
+.search-bar button {}
+
+.w-6 {
+    width: 6%;
+}
+
+.btns {
+    margin-bottom: 17px;
+}
+
+.btns button {
+    width: 100px;
+    margin-right: 4px;
+}
+
+.todo-item {
+    width: 100%;
+    height: 160px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 4px 6px 13px -8px grey
+}
+
+.todo-item img {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 24%;
+    height: 100%;
+}
+
+.w-68 {
+    width: 68%;
+}
+
+.actions {
+    width: 8%;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.actions button {
+    width: 100%;
+}
+
+#desc {
+    width: 120px;
+}
+
+.warning {
+    display: none;
+}
+
+#taskNotDone {
+    display: block;
+}
+
+#taskDone {
+    display: none;
+}
